@@ -70,7 +70,7 @@ def tampilkan_submenu():
 
 async def check_proxy(session, protokol, ip, port):
     """Cek proxy dengan protokol tertentu"""
-    url = 'http://www.google.com'
+    url = 'http://httpbin.org/ip'
     proxy = f"{protokol}://{ip}:{port}"
     
     try:
